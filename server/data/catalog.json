@@ -1,0 +1,8 @@
+[
+  { "id": 1, "title": "James", "author": "Percival Everett", "format": "Book" },
+  { "id": 2, "title": "The Library Book", "author": "Susan Orlean", "format": "Book" },
+  { "id": 3, "title": "A People's History of the United States", "author": "Howard Zinn", "format": "Audiobook" },
+  { "id": 4, "title": "Braiding Sweetgrass", "author": "Robin Wall Kimmerer", "format": "Book" },
+  { "id": 5, "title": "The Design of Everyday Things", "author": "Don Norman", "format": "Book" },
+  { "id": 6, "title": "Deaf Republic", "author": "Ilya Kaminsky", "format": "Poetry" }
+]

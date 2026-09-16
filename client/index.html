@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catalog Search — Accessibility Demo Slice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <h1>Library Catalog Search</h1>
+    <p>A small, accessible feature slice built on findings from the site audit.</p>
+  </header>
+
+  <main id="main-content">
+    <form id="search-form" role="search" aria-label="Catalog search">
+      <label for="search-input">Search by title or author</label>
+      <input
+        type="text"
+        id="search-input"
+        name="q"
+        autocomplete="off"
+        placeholder="e.g. Everett, Braiding Sweetgrass"
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <!-- aria-live announces result count changes without moving focus,
+         fixing the "silent update" pattern flagged in the audit (WEB-003). -->
+    <p id="result-count" aria-live="polite"></p>
+
+    <ul id="results" aria-label="Search results"></ul>
+  </main>
+
+  <footer>
+    <p>Demo project for the Accessibility Baseline &amp; Repository Architecture Audit.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "accessibility-audit-server",
+  "version": "1.0.0",
+  "description": "Minimal Express API backing the catalog-search feature slice.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test ../tests/search.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
