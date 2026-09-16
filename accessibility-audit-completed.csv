@@ -1,6 +1,0 @@
-issue_id,page_or_component,wcag_reference,evidence,severity,user_impact,recommended_fix,owner,status
-WEB-001,Navigation Menu,2.4.7 Focus Visible,Keyboard focus indicator is difficult to distinguish while tabbing through navigation.,Medium,Keyboard users may lose track of the active element.,Add a high-contrast :focus outline for all interactive elements.,Student,Open
-WEB-002,Contact Form,3.3.2 Labels or Instructions,Input fields rely on placeholder text instead of persistent labels.,High,Screen reader users may not understand required inputs.,Associate visible <label> elements with every input using for/id.,Student,Open
-WEB-003,Images,1.1.1 Non-text Content,Decorative and informative images are missing descriptive alt text.,Medium,Screen reader users miss important context.,Provide meaningful alt text and mark decorative images appropriately.,Student,Open
-WEB-004,Buttons,1.4.3 Contrast (Minimum),Some button text has insufficient contrast against the background.,High,Low-vision users may struggle to read actions.,Increase text/background contrast to meet WCAG AA.,Student,Open
-WEB-005,Page Headings,2.4.6 Headings and Labels,"Heading hierarchy skips levels, reducing document structure.",Low,Assistive technology users have a less predictable navigation experience.,Use a logical H1→H2→H3 hierarchy.,Student,Open
