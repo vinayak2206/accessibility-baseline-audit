@@ -1,0 +1,7 @@
+project-root/
+├── client/
+├── server/
+├── docs/
+│   ├── accessibility-audit-completed.csv
+│   └── screenshots/
+└── tests/
